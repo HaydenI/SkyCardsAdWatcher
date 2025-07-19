@@ -55,7 +55,7 @@ The script relies on template matching to find buttons on the screen. The templa
 
 -   **Confidence Threshold**: You can adjust the `CONFIDENCE_THRESHOLD` in `ad_watcher.py` if the script is not detecting buttons correctly. A lower value is less strict, while a higher value is more strict.
     ```python
-    CONFIDENCE_THRESHOLD = 0.8
+    CONFIDENCE_THRESHOLD = 0.9
     ```
 
 ## Usage
