@@ -1,6 +1,6 @@
 # SkyCards Ad Watcher
 
-This script automates the process of watching advertisements in a mobile application on an Android device to earn in-game currency or rewards. It uses ADB to interact with the device and OpenCV for image recognition to find and tap on buttons.
+This script automates the process of watching advertisements in SkyCards on an Android device to earn in-game photos. It uses ADB to interact with the device and OpenCV for image recognition to find and tap on buttons.
 
 ## ⚠️ Disclaimer
 
