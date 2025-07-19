@@ -13,7 +13,10 @@ This script automates the process of watching advertisements in a mobile applica
 - Waits for the ad to finish playing.
 - Automatically finds and taps various types of "Close Ad" buttons.
 - Repeats the cycle indefinitely.
+- Keeps a running count of successfully watched ads.
 - Includes randomized delays to mimic human behavior.
+- **Failsafe**: If no buttons are found for three consecutive attempts, the script will automatically kill and restart the app to recover from a stuck state.
+- **Debug Mode**: A `-debug` flag can be used to show detailed output, including image detection confidence scores.
 
 ## Prerequisites
 
@@ -70,6 +73,11 @@ The script relies on template matching to find buttons on the screen. The templa
     Make sure you are in the project directory and your virtual environment is activated.
     ```bash
     python3 ad_watcher.py
+    ```
+
+    To see more detailed output, such as image detection confidence scores, run in debug mode:
+    ```bash
+    python3 ad_watcher.py -debug
     ```
 
 4.  **Stopping the script**:
